@@ -12,6 +12,9 @@
 * [ServerSide_SingleSelect.aspx.cs](./CS/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx.cs) (VB: [ServerSide_SingleSelect.aspx.vb](./VB/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx.vb))
 <!-- default file list end -->
 # How to adjust ASPxGridLookup selection
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4742/)**
+<!-- run online end -->
 
 
 <p>This example illustrates the approach described in the <a href="https://www.devexpress.com/Support/Center/p/KA18811">KA18811: How to adjust ASPxGridLookup selection</a> KB article. Refer to the Article for additional details.</p>
