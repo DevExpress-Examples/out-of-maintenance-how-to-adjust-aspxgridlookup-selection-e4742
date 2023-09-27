@@ -19,9 +19,7 @@
                 </GridViewProperties>
                 <Columns>
                     <dx:GridViewCommandColumn ShowSelectCheckbox="true" />
-                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" >
-                        <EditFormSettings Visible="False" />
-                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" />
                     <dx:GridViewDataTextColumn FieldName="ProductName" />
                     <dx:GridViewDataTextColumn FieldName="CategoryID" />
                     <dx:GridViewDataTextColumn FieldName="UnitPrice" />
