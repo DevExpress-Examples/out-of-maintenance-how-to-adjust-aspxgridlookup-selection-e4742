@@ -11,14 +11,10 @@
         <div>
             <dx:ASPxMenu ID="ASPxMenu1" runat="server" Orientation="Vertical" Width="300px">
                 <Items>
-                    <dx:MenuItem NavigateUrl="~/ServerSide_SingleSelect.aspx" Text="Server Side - Single Selection">
-                    </dx:MenuItem>
-                    <dx:MenuItem NavigateUrl="~/ServerSide_MultiSelect.aspx" Text="Server Side - Multi Selection">
-                    </dx:MenuItem>
-                    <dx:MenuItem NavigateUrl="~/ClientSide_SingleSelect.aspx" Text="Client-Side - Single Selection">
-                    </dx:MenuItem>
-                    <dx:MenuItem NavigateUrl="~/ClientSide_MultiSelect.aspx" Text="Client-Side - Multi Selection">
-                    </dx:MenuItem>
+                    <dx:MenuItem NavigateUrl="~/ServerSide_SingleSelect.aspx" Text="Server Side - Single Selection" />
+                    <dx:MenuItem NavigateUrl="~/ServerSide_MultiSelect.aspx" Text="Server Side - Multi Selection" />
+                    <dx:MenuItem NavigateUrl="~/ClientSide_SingleSelect.aspx" Text="Client-Side - Single Selection" />
+                    <dx:MenuItem NavigateUrl="~/ClientSide_MultiSelect.aspx" Text="Client-Side - Multi Selection" />
                 </Items>
             </dx:ASPxMenu>
         </div>
