@@ -4,14 +4,14 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# How to adjust ASPxGridLookup selection
+# Grid Lookup for ASP.NET Web Forms - How to access selected data
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e4742/)**
 <!-- run online end -->
 
 This example demonstrates how to access selected data on the client and server in single and multiple [selection modes](https://docs.devexpress.com/AspNet/9075/components/grid-view/concepts/aspxgridlookup/selection-modes).
 
-## Access the selection on the client in single selection mode.
+## Access selection on the client in single selection mode.
 
 To get selected row value on the client in the single selection mode, call the [ASPxClientGridView.GetRowValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetRowValues(visibleIndex-fieldNames-onCallback)) method.
   
@@ -27,7 +27,7 @@ function OnGetRowValues(values) {
 }  
 ```
 
-## Access the selection on the client in multiple selection mode.
+## Access selection on the client in multiple selection mode.
 
 To get selected row values on the client, in multiple selection mode, call the [ASPxClientGridView.GetSelectedFieldValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetSelectedFieldValues(fieldNames-onCallback)) method.
   
@@ -50,7 +50,7 @@ function OnGetSelectedFieldValues(selectedValues) {
 }  
 ```
 
-## Access the selection on the server in single selection mode.
+## Access selection on the server in single selection mode.
 
 To get selected row value on the server, in single selection mode, call the [ASPxGridView.GetRowValues](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.GetRowValues(System.Int32-System.String--)) method.
   
@@ -111,7 +111,7 @@ End Sub
 ```  
 
 
-## Access the selection on the server in multiple selection mode.
+## Access selection on the server in multiple selection mode.
  
 To get selected row values on the server in multiple selection mode, call the [ASPxGridView.GetSelectedFieldValues](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.GetSelectedFieldValues(System.String--)) method.
   
@@ -182,17 +182,10 @@ Protected Sub SetSelectionButton_Click(ByVal sender As Object, ByVal e As EventA
 End Sub
 ```  
   
+## Files to Review
 
-
-*Files to look at*:
-
-* **[ClientSide_MultiSelect.aspx](./CS/ASPxGridLookUpSelection/ClientSide_MultiSelect.aspx) (VB: [ClientSide_MultiSelect.aspx](./VB/ASPxGridLookUpSelection/ClientSide_MultiSelect.aspx))**
-* [ClientSide_MultiSelect.aspx.cs](./CS/ASPxGridLookUpSelection/ClientSide_MultiSelect.aspx.cs) (VB: [ClientSide_MultiSelect.aspx.vb](./VB/ASPxGridLookUpSelection/ClientSide_MultiSelect.aspx.vb))
+* [ClientSide_MultiSelect.aspx](./CS/ASPxGridLookUpSelection/ClientSide_MultiSelect.aspx) (VB: [ClientSide_MultiSelect.aspx](./VB/ASPxGridLookUpSelection/ClientSide_MultiSelect.aspx))
 * [ClientSide_SingleSelect.aspx](./CS/ASPxGridLookUpSelection/ClientSide_SingleSelect.aspx) (VB: [ClientSide_SingleSelect.aspx](./VB/ASPxGridLookUpSelection/ClientSide_SingleSelect.aspx))
-* [ClientSide_SingleSelect.aspx.cs](./CS/ASPxGridLookUpSelection/ClientSide_SingleSelect.aspx.cs) (VB: [ClientSide_SingleSelect.aspx.vb](./VB/ASPxGridLookUpSelection/ClientSide_SingleSelect.aspx.vb))
-* [Default.aspx](./CS/ASPxGridLookUpSelection/Default.aspx) (VB: [Default.aspx](./VB/ASPxGridLookUpSelection/Default.aspx))
-* [ServerSide_MultiSelect.aspx](./CS/ASPxGridLookUpSelection/ServerSide_MultiSelect.aspx) (VB: [ServerSide_MultiSelect.aspx](./VB/ASPxGridLookUpSelection/ServerSide_MultiSelect.aspx))
 * [ServerSide_MultiSelect.aspx.cs](./CS/ASPxGridLookUpSelection/ServerSide_MultiSelect.aspx.cs) (VB: [ServerSide_MultiSelect.aspx.vb](./VB/ASPxGridLookUpSelection/ServerSide_MultiSelect.aspx.vb))
-* [ServerSide_SingleSelect.aspx](./CS/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx) (VB: [ServerSide_SingleSelect.aspx](./VB/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx))
 * [ServerSide_SingleSelect.aspx.cs](./CS/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx.cs) (VB: [ServerSide_SingleSelect.aspx.vb](./VB/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx.vb))
-<!-- default file list end -->
+
