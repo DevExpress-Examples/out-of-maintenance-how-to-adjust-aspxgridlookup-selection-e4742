@@ -22,23 +22,17 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <dx:ASPxHyperLink ID="ASPxHyperLink1" runat="server" Text="Go to the Default Page" NavigateUrl="~/Default.aspx">
-            </dx:ASPxHyperLink>
+            <dx:ASPxHyperLink ID="ASPxHyperLink1" runat="server" Text="Go to the Default Page" NavigateUrl="~/Default.aspx" />
 
             <dx:ASPxGridLookup ID="ASPxGridLookup1" runat="server" ClientInstanceName="gridLookUp" TextFormatString="{0}" AutoGenerateColumns="False" DataSourceID="AccessDataSource1" Width="300px" KeyFieldName="ProductID">
                 <GridViewProperties>
-                    <SettingsBehavior AllowFocusedRow="True" AllowSelectSingleRowOnly="True"></SettingsBehavior>
+                    <SettingsBehavior AllowFocusedRow="True" AllowSelectSingleRowOnly="True" />
                 </GridViewProperties>
                 <Columns>
-                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" VisibleIndex="0">
-                        <EditFormSettings Visible="False" />
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="1">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="CategoryID" VisibleIndex="2">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="3">
-                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" />
+                    <dx:GridViewDataTextColumn FieldName="ProductName" />
+                    <dx:GridViewDataTextColumn FieldName="CategoryID" />
+                    <dx:GridViewDataTextColumn FieldName="UnitPrice" />
                 </Columns>
             </dx:ASPxGridLookup>
 
@@ -48,7 +42,7 @@
             </dx:ASPxButton>
 
             <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/nwind.mdb"
-                SelectCommand="SELECT [ProductID], [ProductName], [CategoryID], [UnitPrice] FROM [Products]"></asp:AccessDataSource>
+                SelectCommand="SELECT [ProductID], [ProductName], [CategoryID], [UnitPrice] FROM [Products]" />
         </div>
     </form>
 </body>
