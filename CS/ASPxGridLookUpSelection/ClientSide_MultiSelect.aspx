@@ -34,10 +34,8 @@
                     <SettingsBehavior AllowFocusedRow="True" />
                 </GridViewProperties>
                 <Columns>
-                    <dx:GridViewCommandColumn VisibleIndex="0" ShowSelectCheckbox="true" />
-                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" >
-                        <EditFormSettings Visible="False" />
-                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewCommandColumn ShowSelectCheckbox="true" />
+                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" />
                     <dx:GridViewDataTextColumn FieldName="ProductName" />
                     <dx:GridViewDataTextColumn FieldName="CategoryID" />
                     <dx:GridViewDataTextColumn FieldName="UnitPrice" />
@@ -50,7 +48,7 @@
             </dx:ASPxButton>
 
             <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/nwind.mdb"
-                SelectCommand="SELECT [ProductID], [ProductName], [CategoryID], [UnitPrice] FROM [Products]"></asp:AccessDataSource>
+                SelectCommand="SELECT [ProductID], [ProductName], [CategoryID], [UnitPrice] FROM [Products]" />
         </div>
     </form>
 </body>
