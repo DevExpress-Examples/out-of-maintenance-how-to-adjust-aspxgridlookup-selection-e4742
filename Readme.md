@@ -11,9 +11,9 @@
 
 This example demonstrates how to access selected data on the client and server in single and multiple [selection modes](https://docs.devexpress.com/AspNet/9075/components/grid-view/concepts/aspxgridlookup/selection-modes).
 
-## Access selection on the client in single selection mode.
+## Access selection on the client in single selection mode
 
-To get selected row value on the client in the single selection mode, call the [ASPxClientGridView.GetRowValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetRowValues(visibleIndex-fieldNames-onCallback)) method.
+To get the selected row value on the client in single selection mode, call the [ASPxClientGridView.GetRowValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetRowValues(visibleIndex-fieldNames-onCallback)) method.
   
 ```js  
 function OnGetSelectionButtonClick(s, e) {  
@@ -27,9 +27,9 @@ function OnGetRowValues(values) {
 }  
 ```
 
-## Access selection on the client in multiple selection mode.
+## Access selection on the client in multiple selection mode
 
-To get selected row values on the client, in multiple selection mode, call the [ASPxClientGridView.GetSelectedFieldValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetSelectedFieldValues(fieldNames-onCallback)) method.
+To get selected row values on the client in multiple selection mode, call the [ASPxClientGridView.GetSelectedFieldValues](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetSelectedFieldValues(fieldNames-onCallback)) method.
   
 ```js  
 function OnGetSelectionButtonClick(s, e) {  
@@ -50,9 +50,9 @@ function OnGetSelectedFieldValues(selectedValues) {
 }  
 ```
 
-## Access selection on the server in single selection mode.
+## Access selection on the server in single selection mode
 
-To get selected row value on the server, in single selection mode, call the [ASPxGridView.GetRowValues](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.GetRowValues(System.Int32-System.String--)) method.
+To get the selected row value on the server in single selection mode, call the [ASPxGridView.GetRowValues](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.GetRowValues(System.Int32-System.String--)) method.
   
 ```cs  
 protected void GetSelectionButton_Click(object sender, EventArgs e) {  
@@ -111,7 +111,7 @@ End Sub
 ```  
 
 
-## Access selection on the server in multiple selection mode.
+## Access selection on the server in multiple selection mode
  
 To get selected row values on the server in multiple selection mode, call the [ASPxGridView.GetSelectedFieldValues](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.GetSelectedFieldValues(System.String--)) method.
   
