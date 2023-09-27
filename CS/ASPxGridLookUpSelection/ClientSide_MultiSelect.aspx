@@ -26,26 +26,21 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <dx:ASPxHyperLink ID="ASPxHyperLink1" runat="server" Text="Go to the Default Page" NavigateUrl="~/Default.aspx">
-            </dx:ASPxHyperLink>
+            <dx:ASPxHyperLink ID="ASPxHyperLink1" runat="server" Text="Go to the Default Page" NavigateUrl="~/Default.aspx" />
 
             <dx:ASPxGridLookup ID="ASPxGridLookup1" runat="server" TextFormatString="{0}" ClientInstanceName="gridLookUp" AutoGenerateColumns="False"
                 SelectionMode="Multiple" DataSourceID="AccessDataSource1" Width="300px" KeyFieldName="ProductID">
                 <GridViewProperties>
-                    <SettingsBehavior AllowFocusedRow="True"></SettingsBehavior>
+                    <SettingsBehavior AllowFocusedRow="True" />
                 </GridViewProperties>
                 <Columns>
-                    <dx:GridViewCommandColumn VisibleIndex="0" ShowSelectCheckbox="true">
-                    </dx:GridViewCommandColumn>
-                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" VisibleIndex="1">
+                    <dx:GridViewCommandColumn VisibleIndex="0" ShowSelectCheckbox="true" />
+                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" >
                         <EditFormSettings Visible="False" />
                     </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="2">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="CategoryID" VisibleIndex="3">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="4">
-                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ProductName" />
+                    <dx:GridViewDataTextColumn FieldName="CategoryID" />
+                    <dx:GridViewDataTextColumn FieldName="UnitPrice" />
                 </Columns>
             </dx:ASPxGridLookup>
 
