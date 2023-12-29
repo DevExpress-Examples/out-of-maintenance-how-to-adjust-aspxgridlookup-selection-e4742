@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Grid Lookup for ASP.NET Web Forms - How to access selected data
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128531222/)**
-<!-- run online end -->
 
 This example demonstrates how to access selected data on the client and server in single and multiple [selection modes](https://docs.devexpress.com/AspNet/9075/components/grid-view/concepts/aspxgridlookup/selection-modes).
 
